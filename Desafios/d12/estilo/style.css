@@ -57,6 +57,10 @@ section {
     font-size: 4vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section > pre {
     white-space: pre-line;
     font-family: var(--fonte3);
@@ -70,12 +74,22 @@ section.normal {
 section.imagem {
     background-color: rgb(52, 52, 52);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.506);
 }
 
 section.imagem pre {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.499);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background: darkgray url(../imagens/background001.jpg) top center/cover no-repeat fixed;
+}
+
+section#img02 {
+    background: darkgray url(../imagens/background002.jpg) right center/cover no-repeat fixed;
 }
 
 footer {
